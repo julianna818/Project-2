@@ -3,15 +3,104 @@
 // Copy variables from `_variables.scss` to this file to override default values
 // without modifying source files.
 
-// Fonts
+// Colors
 //
-// Font, line-height, and color for body text, headings, and more.
+// Grayscale and brand colors for use across Bootstrap.
 
-$font-family-sans-serif: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-$font-family-serif:      'Playfair Display', Georgia, "Times New Roman", Times, serif;
-$font-family-monospace:  Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-$font-family-base:       $font-family-serif;
+// Start with assigning color names to specific hex values.
+$white:  #fff;
+$black:  #000;
+$red:    #d9534f;
+$orange: #f0ad4e;
+$yellow: #ffd500;
+$green:  #5cb85c;
+$blue:   #0275d8;
+$teal:   #5bc0de;
+$pink:   #ff5b77;
+$purple: #613d7c;
+$blue-gray: #2b2c4b;
+
+
+// Create grayscale
+$gray-dark:                 #292b2c;
+$gray:                      #464a4c;
+$gray-light:                #636c72;
+$gray-lighter:              #eceeef;
+$gray-lightest:             #f7f7f9;
+
+
+// Reassign color vars to semantic color scheme
+$brand-primary:             $blue-gray;
+$brand-success:             $green;
+$brand-info:                $teal;
+$brand-warning:             $orange;
+$brand-danger:              $red;
+$brand-inverse:             $gray-dark;
+
+
+// Fonts
+
 
 // Font weights
 
+// Cards
+$background: $blue;
+$border: 0px;
+
 $font-weight-bold: 900;
+
+//nav
+$navbar-padding-x: 10px;
+$navbar-padding-y: 10px;
+
+.navbar {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+  padding: $navbar-padding-y $navbar-padding-x;
+}
+
+.fixed-top {
+	background-color: rgba(43, 44, 75, 0.7);
+}
+
+.dropdown {
+	display: right;
+}
+
+.nav {
+	color: $white;
+}
+
+.navbar {
+	width: 80vw;
+	margin-bottom: 0px;
+	border-radius: 0px;
+	display: block;  
+  	margin-right: auto;  
+  	margin-left: auto;
+  	color: $white;
+  	text-decoration-color: $white;
+}
+
+.jumbotron h1 {
+	color:$white;
+	text-align: center;
+}
+
+.card-deck {
+	width: 80vw;
+	margin: auto;
+	color: $white;
+	margin-bottom: 5vh;
+}
+
+.card-img-top {
+	margin: auto;
+}
+
+.dropdown-menu .dropdown-item {
+	background-color: rgba(43, 44, 75, 0.7);
+}
+

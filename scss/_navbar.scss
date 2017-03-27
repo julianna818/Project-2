@@ -35,6 +35,8 @@
   font-size: $font-size-lg;
   line-height: inherit;
   white-space: nowrap;
+  text-decoration: none;
+  display: inline-block;
 
   @include hover-focus {
     text-decoration: none;
@@ -52,6 +54,7 @@
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
+  text-decoration: none;
 
   .nav-link {
     padding-right: 0;

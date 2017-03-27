@@ -2,7 +2,7 @@
 //
 // Kickstart any navigation component with a set of style resets. Works with
 // `<nav>`s or `<ul>`s.
-
+//
 .nav {
   display: flex;
   padding-left: 0;
@@ -24,7 +24,6 @@
     cursor: $cursor-disabled;
   }
 }
-
 
 //
 // Tabs
@@ -117,3 +116,6 @@
     display: block;
   }
 }
+
+
+

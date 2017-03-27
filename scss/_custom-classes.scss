@@ -1,0 +1,106 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+.container-jumbotron {
+	height: 100vh;
+	background-image:  url("../images/bg-jumbotron.jpg");
+	display: flex;
+  	text-align: center;
+}
+
+.hero {
+  	color: $white;
+  	background-color: black;
+  	min-height: 100%; 
+  	min-height: 100vh; 
+  	display: flex;
+  	align-items: center;
+}
+
+.header {
+	height: 15vh;
+	background-color:$white;
+	color: $brand-primary;
+}
+
+.transparent {
+	background-color: rgba(43, 44, 75, 0.8);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+}
+
+
+.btn-primary {
+    background: #0099cc;
+    color: #ffffff;
+}
+ 
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    background: #33a6cc;
+}
+// .search-button {
+// 	color: white;
+// 	border-radius: 0px;
+// }
+
+
+// .btn .btn-outline-success .my-2 .my-sm-0 {
+// 	border-color: $white;
+// }
+
+.nav-text {
+	color: $white;
+}
+
+.card-hero {
+	background-color: rgba(43, 44, 75, 0.8);
+	height: 30%vh;
+	width: 50%vw;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	padding-left: 40px;
+	padding-right: 40px;
+	margin-top: 200px;
+	margin: auto;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+}
+
+.parallax {
+	background:  url("../images/bg-jumbotron.jpg") repeat fixed 100%;
+}
+
+.parallax-local {
+	background:  url("../images/local-bg.jpg") repeat fixed 100%;
+}
+
+.parallax-state {
+	background:  url("../images/state-bg.jpg") repeat fixed 100%;
+}
+
+.parallax-federal {
+	background:  url("../images/local-bg.jpg") repeat fixed 100%;
+}
+
+.parallax-inner {
+	padding-top:20%;
+	padding-bottom:20%;
+}
+
+.card-info {
+	// background-color: rgba(43, 44, 75, 0.9);
+	background-color: rgba(43, 44, 75, 0.8);	
+	border-color: rgba(43, 44, 75, 0.8);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+	margin-botton: 5vh;
+}
+
+.card-header {
+	padding-top: 40px;
+	padding-bottom: 40px;
+	padding-left: 40px;
+	padding-right: 40px;
+	margin-top: 200px;
+	margin: auto;
+}

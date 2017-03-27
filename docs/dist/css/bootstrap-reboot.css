@@ -1,3 +1,62 @@
+.navbar {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: transparent;
+  padding: 10px 10px;
+}
+
+.fixed-top {
+  background-color: rgba(43, 44, 75, 0.7);
+}
+
+.dropdown {
+  display: right;
+}
+
+.nav {
+  color: #fff;
+}
+
+.navbar {
+  width: 80vw;
+  margin-bottom: 0px;
+  border-radius: 0px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  color: #fff;
+  -webkit-text-decoration-color: #fff;
+          text-decoration-color: #fff;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  text-align: center;
+}
+
+.card-deck {
+  width: 80vw;
+  margin: auto;
+  color: #fff;
+  margin-bottom: 5vh;
+}
+
+.card-img-top {
+  margin: auto;
+}
+
+.dropdown-menu .dropdown-item {
+  background-color: rgba(43, 44, 75, 0.7);
+}
+
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
 html {
   font-family: sans-serif;

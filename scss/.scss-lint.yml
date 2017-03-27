@@ -10,7 +10,7 @@ plugin_directories: ['.scss-linters']
 
 # List of gem names to load custom linters from (make sure they are already
 # installed)
-plugin_gems: []
+# plugin_gems: []
 
 # Default severity of all linters.
 severity: warning
