@@ -27,10 +27,6 @@
   display: right;
 }
 
-.nav {
-  color: #fff;
-}
-
 .navbar {
   width: 80vw;
   margin-bottom: 0px;
@@ -39,8 +35,13 @@
   margin-right: auto;
   margin-left: auto;
   color: #fff;
-  -webkit-text-decoration-color: #fff;
-          text-decoration-color: #fff;
+}
+
+.navbar a,
+.navbar a:link,
+.navbar a:active,
+.navbar a:visited {
+  color: #fff;
 }
 
 .jumbotron h1 {
@@ -57,6 +58,7 @@
 
 .card-img-top {
   margin: auto;
+  margin-top: 25px;
 }
 
 .dropdown-menu .dropdown-item {
@@ -9404,6 +9406,7 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
   display: -ms-flexbox;
   display: flex;
   text-align: center;
+  margin: 0 auto;
 }
 
 .hero {
@@ -9425,6 +9428,12 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
   height: 15vh;
   background-color: #fff;
   color: #2b2c4b;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-top: 200px;
+  margin: auto;
 }
 
 .transparent {
@@ -9486,15 +9495,53 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
   border-color: rgba(43, 44, 75, 0.8);
   -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
-  margin-botton: 5vh;
+  margin-botton: 40px;
 }
 
 .card-header {
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-bottom: 80px;
   padding-left: 40px;
   padding-right: 40px;
-  margin-top: 200px;
+  margin-top: 40px;
   margin: auto;
+  background-color: #fff;
+}
+
+.sm {
+  float: left;
+  margin-left: 15px;
+  max-height: 40px;
+  max-width: 40px;
+  display: inline-block;
+}
+
+.btn-nav {
+  color: #fff;
+  background-color: rgba(43, 44, 75, 0.8);
+  border-color: #fff;
+}
+
+.btn-nav:hover {
+  color: #fff;
+  background-color: rgba(24, 25, 43, 0.8);
+  border-color: #e0e0e0;
+}
+
+.btn-nav:focus, .btn-nav.focus {
+  -webkit-box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.5);
+          box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.5);
+}
+
+.btn-nav.disabled, .btn-nav:disabled {
+  background-color: rgba(43, 44, 75, 0.8);
+  border-color: #fff;
+}
+
+.btn-nav:active, .btn-nav.active,
+.show > .btn-nav.dropdown-toggle {
+  color: #fff;
+  background-color: rgba(24, 25, 43, 0.8);
+  background-image: none;
+  border-color: #e0e0e0;
 }
 /*# sourceMappingURL=bootstrap.css.map */

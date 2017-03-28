@@ -21,10 +21,6 @@
   display: right;
 }
 
-.nav {
-  color: #fff;
-}
-
 .navbar {
   width: 80vw;
   margin-bottom: 0px;
@@ -33,8 +29,13 @@
   margin-right: auto;
   margin-left: auto;
   color: #fff;
-  -webkit-text-decoration-color: #fff;
-          text-decoration-color: #fff;
+}
+
+.navbar a,
+.navbar a:link,
+.navbar a:active,
+.navbar a:visited {
+  color: #fff;
 }
 
 .jumbotron h1 {
@@ -51,6 +52,7 @@
 
 .card-img-top {
   margin: auto;
+  margin-top: 25px;
 }
 
 .dropdown-menu .dropdown-item {

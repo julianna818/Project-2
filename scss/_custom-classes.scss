@@ -8,7 +8,8 @@
 	height: 100vh;
 	background-image:  url("../images/bg-jumbotron.jpg");
 	display: flex;
-  	text-align: center;
+ 	text-align: center;
+  margin: 0 auto;
 }
 
 .hero {
@@ -24,6 +25,13 @@
 	height: 15vh;
 	background-color:$white;
 	color: $brand-primary;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	padding-left: 40px;
+	padding-right: 40px;
+	margin-top: 200px;
+	margin: auto;
+
 }
 
 .transparent {
@@ -93,14 +101,27 @@
 	background-color: rgba(43, 44, 75, 0.8);	
 	border-color: rgba(43, 44, 75, 0.8);
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
-	margin-botton: 5vh;
+	margin-botton: 40px;
 }
 
 .card-header {
-	padding-top: 40px;
-	padding-bottom: 40px;
+	// padding-top: 40px;
+	padding-bottom: 80px;
 	padding-left: 40px;
 	padding-right: 40px;
-	margin-top: 200px;
+	margin-top: 40px;
 	margin: auto;
+	background-color: $white;
+}
+
+.sm {
+	float: left;
+	margin-left: 15px;
+	max-height: 40px;
+	max-width: 40px;
+	display: inline-block;
+}
+
+.btn-nav {
+  @include button-variant($white, $blue-purple-8, $white);
 }

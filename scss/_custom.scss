@@ -19,6 +19,7 @@ $teal:   #5bc0de;
 $pink:   #ff5b77;
 $purple: #613d7c;
 $blue-gray: #2b2c4b;
+$blue-purple-8: rgba(43, 44, 75, 0.8);
 
 
 // Create grayscale
@@ -69,19 +70,24 @@ $navbar-padding-y: 10px;
 	display: right;
 }
 
-.nav {
-	color: $white;
-}
 
 .navbar {
 	width: 80vw;
 	margin-bottom: 0px;
 	border-radius: 0px;
 	display: block;  
-  	margin-right: auto;  
-  	margin-left: auto;
-  	color: $white;
-  	text-decoration-color: $white;
+  margin-right: auto;  
+  margin-left: auto;
+ 	color: $white;
+ 	// text-decoration-color: $white;
+
+	
+	a,
+	a:link,
+	a:active,
+	a:visited {
+		color: $white;
+	}
 }
 
 .jumbotron h1 {
@@ -98,9 +104,12 @@ $navbar-padding-y: 10px;
 
 .card-img-top {
 	margin: auto;
+	margin-top: 25px;
 }
 
 .dropdown-menu .dropdown-item {
 	background-color: rgba(43, 44, 75, 0.7);
 }
+
+
 
